@@ -1,0 +1,30 @@
+{
+  "name": "mescroll",
+  "version": "1.0.0",
+  "description": "Scroll animation library",
+  "keywords": [
+    "scroll",
+    "animation"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "build": "microbundle -f umd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKhamatdinov/MEScroll.git"
+  },
+  "author": "Radik Khamatdinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RKhamatdinov/MEScroll/issues"
+  },
+  "homepage": "https://github.com/RKhamatdinov/MEScroll#readme",
+  "dependencies": {
+    "microbundle": "^0.14.1"
+  },
+  "publishConfig": {
+    "source": "src/mescroll.js",
+    "main": "build/mescroll.js"
+  }
+}
