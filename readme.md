@@ -14,8 +14,7 @@ Injects CSS features for scrolling
 |--mescroll-allow-overscroll| - | boolean | allows passing scroll value over 100% |
 |--mescroll-reverse| - | boolean | reverse scroll value to 100% - 0% |
 |--mescroll-offset| - | % | disposes start point of scroll animation. 0% - bottom, 100% - top |
-
-## Example
+|--mescroll-range| - | % | 0% | sets end point of animation. 0% - bottom, 100% - top |
 
 ```html
 <!-- index.html -->
