@@ -16,29 +16,4 @@ Injects CSS features for scrolling
 |--mescroll-offset| % | 0% | disposes start point of scroll animation. 0% - bottom, 100% - top |
 |--mescroll-range| % | 0% | sets end point of animation. 0% - bottom, 100% - top |
 
-```html
-<!-- index.html -->
-
-<section class="my-section" data-mescroll>
-  <div class="anim-element">
-    Lorem ipsum dolor sit amet
-  </div>
-</section>
-```
-
-```css
-.my-section {
-  --mescroll-offset: 100%;
-  min-height: 150vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.my-section .anim-element {
-  position: sticky;
-  font-size: 24px;
-  top: 0;
-  transform: rotate(calc(var(--mescroll-value) * 360deg))
-}
-```
+[Example](demo)

@@ -52,7 +52,7 @@
       const fullHeight = Math.max(windowHeight, height);
       const elBottom = -(elTop - windowHeight * (1 - offset));
       
-      let percent = elBottom / (fullHeight - windowHeight * (el.meScroll.endPoint));
+      let percent = elBottom / (fullHeight * (1 - el.meScroll.endPoint));
       
       if (!el.meScroll.allowOverscroll) {
         percent = Math.max(0, Math.min(1, percent));
